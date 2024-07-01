@@ -13,8 +13,8 @@ namespace circleLab
         }
 
         public InvalidRadiusException(double radius)
-            : base($"Invalid radius: {radius}. Radius must be greater than zero.")
-        {
+            : base($"Invalid radius: {radius}. Radius must be greater than 0.")
+        {   
         }
     }
 }
